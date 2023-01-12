@@ -1,0 +1,35 @@
+.getUber__container {
+    display: grid;
+    grid-template-columns: 50% 35%;
+    gap: 15%;
+}
+
+.getUber {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent,var(--color-primary),transparent);
+    display: grid;
+    place-items: center;
+}
+
+.getUber-image {
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
